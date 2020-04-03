@@ -1,3 +1,4 @@
+package logicbuilding;
 import java.util.Scanner;
 
 public class SumOfDigit {
@@ -9,7 +10,7 @@ public class SumOfDigit {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Value for sum of the digit");
 		number = sc.nextInt();
-		
+		sc.close();
 		while(number>0)
 		{
 			remainder = number % 10;
